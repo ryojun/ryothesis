@@ -1,4 +1,5 @@
 const mysql = require('mysql');
+
 // const connection = mysql.createPool({
 //     host : 'localhost',
 //     user : 'root',
@@ -8,7 +9,7 @@ const mysql = require('mysql');
 // });
 
 const connection = mysql.createPool({
-    host : 'localhost',
+    host : '185.224.138.175',
     user : 'u559630928_ryothesis',
     password : 'Neverend29378',
     database : 'u559630928_ryothesis',
